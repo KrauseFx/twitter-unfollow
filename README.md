@@ -1,6 +1,6 @@
 # twitter-unfollow
 
-> My goal for the next months is to spend less time consuming social media and more time creating. Instead of reacting to things, I want to focus on having a bigger vision, planning things ahead and doing what has the highest impact.
+> My goal for the next months is to spend less time on social media and more time creating. Instead of reacting to things, I want to focus on having a bigger vision, planning things ahead and doing what has the highest impact.
 > 
 > I've been reading every single tweet in my timeline for the last 4 years with no break
 > 
@@ -10,6 +10,7 @@
 > 
 > I'll still follow a small amount of people via Twitter lists, since there are certain things I really don't want to miss
 
+![unfollow.gif](unfollow.gif)
 
 This script does the following:
 
@@ -31,8 +32,8 @@ bundle exec ruby unfollow.rb
 ## Technical Notes
 - Create your application via [Twitter Apps](https://apps.twitter.com)
 - Set the following environment variables
-  - ENV["CONSUMER_KEY"]
-  - ENV["CONSUMER_SECRET"]
-  - ENV["ACCESS_TOKEN"]
-  - ENV["ACCESS_TOKEN_SECRET"]
+  - `ENV["CONSUMER_KEY"]`
+  - `ENV["CONSUMER_SECRET"]`
+  - `ENV["ACCESS_TOKEN"]`
+  - `ENV["ACCESS_TOKEN_SECRET"]`
 - Due to the API limits this script can only unfollow about 420 people per run. You'll need to regenerate keys after this 🤷‍♀️
