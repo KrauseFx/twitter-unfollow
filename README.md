@@ -2,7 +2,7 @@
 
 > My goal for the next months is to spend less time on social media and more time creating. Instead of reacting to things, I want to focus on having a bigger vision, planning things ahead and doing what has the highest impact.
 > 
-> I've been reading every single tweet in my timeline for the last 4 years with no break
+> I've been reading every single tweet in my timeline for the last 4 years with no interruption.
 > 
 > In total I have over 100 custom mute filters, including custom regexes like `(@United|delta|Delta|JetBlue|jetblue)`), and muted clients like Buffer
 >
