@@ -2,6 +2,7 @@ require 'twitter'
 
 class Unfollow
   def run
+    raise "Please create a list called 'Old Follows'" if old_follows_list.nil?
     followings = client.following
 
     followings.each do |user|
