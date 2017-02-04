@@ -6,6 +6,8 @@ class Unfollow
     followings = client.following
 
     followings.each do |user|
+      next if user.screen_name == "KrauseFx" # trolololol
+
       puts "Unfollowing user #{user.screen_name} (#{user.name})"
       client.add_list_member(old_follows_list, user.id)
       client.unfollow(user.id)
