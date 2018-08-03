@@ -12,6 +12,8 @@
 
 ![unfollow.gif](unfollow.gif)
 
+[View full blog post on my Twitter setup](https://krausefx.com/blog/how-i-use-twitter)
+
 This script does the following:
 
 - Unfollow everybody
@@ -37,3 +39,5 @@ bundle exec ruby unfollow.rb
   - `ENV["ACCESS_TOKEN"]`
   - `ENV["ACCESS_TOKEN_SECRET"]`
 - Due to the API limits this script can only unfollow about 420 people per run. You'll need to regenerate keys after this 🤷‍♀️
+
+[View full blog post on my Twitter setup](https://krausefx.com/blog/how-i-use-twitter)
