@@ -1,4 +1,5 @@
 require 'twitter'
+require 'shellwords'
 
 class Unfollow
   def run
@@ -11,8 +12,8 @@ class Unfollow
       puts "Unfollowing user #{user.screen_name} (#{user.name})"
       client.add_list_member(old_follows_list, user.id)
       client.unfollow(user.id)
-      `echo "#{user.screen_name}" >> unfollowed_usernames.txt`
-      `echo "#{user.screen_name} (#{user.name}): #{user.description}" >> unfollowed_full_names.txt`
+      `echo "#{user.screen_name.shellescape}" >> unfollowed_usernames.txt`
+      `echo "#{user.screen_name.shellescape} (#{user.name.shellescape}): #{user.description.shellescape}" >> unfollowed_full_names.txt`
       sleep 1
     end
   end
