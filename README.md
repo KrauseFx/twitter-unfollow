@@ -22,7 +22,7 @@ This script does the following:
 - Store the usernames, together with full name and bio into `unfollowed_full_names.txt` (this allows you to search for users)
 
 ```
-bundle update
+bundle install
 bundle exec ruby unfollow.rb
 ```
 
