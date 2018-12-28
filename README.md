@@ -4,7 +4,7 @@
 > 
 > I've been reading every single tweet in my timeline for the last 4 years with no interruption.
 > 
-> In total I have over 100 custom mute filters, including custom regexes like `(@United|delta|Delta|JetBlue|jetblue)`), and muted clients like Buffer
+> In total I have over 100 custom mute filters, including custom regexes like `(@United|delta|Delta|JetBlue|jetblue)`, and muted clients like Buffer
 >
 > It's time for me to stop reading so much on social media portals, and focus on reading books instead.
 > 
